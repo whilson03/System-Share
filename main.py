@@ -1,12 +1,12 @@
 from PyQt5 import QtWidgets
 
-import client_operation
-from connection_failed_dialog import Ui_connectionFailedDialog
-from create_server_dialog import Ui_createDialog
-from join_server_dialog import Ui_joinDialog
-from main_window import Ui_MainWindow
-from server_established import Ui_serverEstablishedDialog
-from server_unsuccessful import Ui_serverUnsuccessfulDialog
+from client import client_operation
+from gui.connection_failed_dialog import Ui_connectionFailedDialog
+from gui.create_server_dialog import Ui_createDialog
+from gui.join_server_dialog import Ui_joinDialog
+from gui.main_window import Ui_MainWindow
+from gui.server_established import Ui_serverEstablishedDialog
+from gui.server_unsuccessful import Ui_serverUnsuccessfulDialog
 
 
 def openJoinDialog():
