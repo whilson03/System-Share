@@ -9,11 +9,13 @@ from pyftpdlib.servers import FTPServer
 
 def get_user_info():
     """
+    h
     Gets user's details which include IP address, username, password, directory to be shared.
     :return: dictionary of arforementioned details
     """
 
     try:  # Ensures system is connected to network for valid IP Address.
+
         ip_address = socket.gethostbyname(socket.gethostname())
 
     except socket.gaierror as e:
